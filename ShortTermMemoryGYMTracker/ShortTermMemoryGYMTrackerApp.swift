@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct ShortTermMemoryGYMTrackerApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
