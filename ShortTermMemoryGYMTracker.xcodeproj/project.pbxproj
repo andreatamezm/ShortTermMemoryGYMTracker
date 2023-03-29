@@ -32,6 +32,8 @@
 		49A5E8A929D2C73700645C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5E8A829D2C73700645C5B /* AppDelegate.swift */; };
 		49A5E8AC29D2C91200645C5B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5E8AB29D2C91200645C5B /* HomeView.swift */; };
 		49A5E8AE29D2C91C00645C5B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5E8AD29D2C91C00645C5B /* SettingsView.swift */; };
+		49A5E8B129D359F500645C5B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5E8B029D359F500645C5B /* SearchView.swift */; };
+		49A5E8B329D359FF00645C5B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5E8B229D359FF00645C5B /* LibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		49A5E8A829D2C73700645C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A5E8AB29D2C91200645C5B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		49A5E8AD29D2C91C00645C5B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		49A5E8B029D359F500645C5B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		49A5E8B229D359FF00645C5B /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +138,7 @@
 				49A5E85B29D2C0AC00645C5B /* ShortTermMemoryGYMTrackerApp.swift */,
 				49A5E8A829D2C73700645C5B /* AppDelegate.swift */,
 				49A5E8AA29D2C80D00645C5B /* Authentication */,
-				49A5E85D29D2C0AC00645C5B /* ContentView.swift */,
-				49A5E8AB29D2C91200645C5B /* HomeView.swift */,
-				49A5E8AD29D2C91C00645C5B /* SettingsView.swift */,
+				49A5E8AF29D359B800645C5B /* Views */,
 				49A5E85F29D2C0AD00645C5B /* Assets.xcassets */,
 				49A5E86129D2C0AD00645C5B /* Preview Content */,
 			);
@@ -175,6 +177,18 @@
 				49A5E8A029D2C1DC00645C5B /* AuthenticationView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		49A5E8AF29D359B800645C5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49A5E85D29D2C0AC00645C5B /* ContentView.swift */,
+				49A5E8AD29D2C91C00645C5B /* SettingsView.swift */,
+				49A5E8AB29D2C91200645C5B /* HomeView.swift */,
+				49A5E8B029D359F500645C5B /* SearchView.swift */,
+				49A5E8B229D359FF00645C5B /* LibraryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +343,8 @@
 				49A5E8A129D2C1DD00645C5B /* AuthenticationView.swift in Sources */,
 				49A5E85E29D2C0AC00645C5B /* ContentView.swift in Sources */,
 				49A5E8A529D2C5C500645C5B /* AuthenticationManager.swift in Sources */,
+				49A5E8B329D359FF00645C5B /* LibraryView.swift in Sources */,
+				49A5E8B129D359F500645C5B /* SearchView.swift in Sources */,
 				49A5E8AC29D2C91200645C5B /* HomeView.swift in Sources */,
 				49A5E8A929D2C73700645C5B /* AppDelegate.swift in Sources */,
 				49A5E85C29D2C0AC00645C5B /* ShortTermMemoryGYMTrackerApp.swift in Sources */,
